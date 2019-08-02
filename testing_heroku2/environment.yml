@@ -1,0 +1,7 @@
+name: heroku_app #Environment name
+dependencies:
+  - python=3.7.1
+  - pip:
+    - heroku
+    - flask
+    - category_encoders
